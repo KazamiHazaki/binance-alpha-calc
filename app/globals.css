@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+.calculator-card {
+    background-color: #1a202c; /* A dark theme inspired by trading platforms */
+    color: #e2e8f0;
+}
+.btn-primary {
+    background-color: #f0b90b; /* Binance-like yellow */
+    color: #1a202c;
+    transition: background-color 0.3s ease;
+}
+.btn-primary:hover {
+    background-color: #f8d33a;
+}
+.input-field {
+    background-color: #2d3748;
+    border-color: #4a5568;
+    color: #e2e8f0;
+}
+.result-box {
+    background-color: #2d3748;
+    border-left-color: #f0b90b;
+}
+.explanation-box {
+     background-color: #2d3748;
+     border-color: #4a5568;
+}
